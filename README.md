@@ -35,7 +35,7 @@ Take first 3 → Secret = **3**
 
 ## ✅ Test Case 2
 **Input (n=10, k=7):** very large values.  
-Take first 7 shares → Secret = **-6290016743746474000**
+Take first 7 shares → Secret = ** 6,290,016,743,746,474,000**
 
 
 **Wrong Points for Test Case 2:** [
