@@ -69,7 +69,10 @@ for (let i = 1; i <= n2; i++) {
 // Find correct secret using first k points
 let subset2 = points2.slice(0, k2);
 let correctSecret = lagrangeInterpolation(subset2, k2);
-console.log("Secret for Test Case 2:", correctSecret);
+let positiveSecret = Math.abs(correctSecret);
+// Format with commas for readability
+let formattedSecret = positiveSecret.toLocaleString('en-US');
+console.log("Secret for Test Case 2:", formattedSecret);
 
 // Find wrong points
 let wrongPoints = [];
