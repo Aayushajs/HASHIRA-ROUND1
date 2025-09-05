@@ -37,6 +37,12 @@ Take first 3 → Secret = **3**
 **Input (n=10, k=7):** very large values.  
 Take first 7 shares → Secret = **-6290016743746474000**
 
+
+**Wrong Points for Test Case 2:** [
+  1, 2, 3, 4,
+  5, 6, 7
+]
+
 **Output:**  
 
 
