@@ -1,9 +1,9 @@
-/**NOTE: This code is designed to run in a Node.js environment. It does not require any external libraries.
- * This code takes numbers written in different bases (like binary, decimal, hexadecimal)
- * and converts them to normal decimal numbers. Then, it uses a math formula called
- * Lagrange interpolation to find a secret value at x=0 using k points from the input.
- * The input is given as a JSON object, and the answer is printed as "Secret".
- */
+/**NOTE: This code is designed to run in a Node.js environment. It does not require any external libraries.|
+ * This code takes numbers written in different bases (like binary, decimal, hexadecimal)                  |
+ * and converts them to normal decimal numbers. Then, it uses a math formula called                        |
+ * Lagrange interpolation to find a secret value at x=0 using k points from the input.                     |
+ * The input is given as a JSON object, and the answer is printed as "Secret".                             |
+ **********************************************************************************************************/
 
 // Converts a number written as a string in any base (like "111" in base 2) to a normal decimal number.
 function toDecimal(str, base) {
